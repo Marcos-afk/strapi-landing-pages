@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_section_section_metadas",
+  "info": {
+    "displayName": "section_metada",
+    "icon": "ad"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "maxLength": 20,
+      "minLength": 5
+    },
+    "section_id": {
+      "type": "string",
+      "regex": "^[a-zA-Z]+([0-9]*[a-zA-Z]+)*$",
+      "required": true,
+      "maxLength": 20,
+      "minLength": 5
+    },
+    "background": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    }
+  }
+}

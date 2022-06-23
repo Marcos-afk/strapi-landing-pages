@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_section_section_contents",
+  "info": {
+    "displayName": "section_content",
+    "icon": "ad"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "maxLength": 20,
+      "minLength": 5
+    },
+    "content": {
+      "type": "richtext",
+      "required": true,
+      "minLength": 5,
+      "maxLength": 200
+    },
+    "metadata": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section.section-metada",
+      "required": true
+    }
+  }
+}
